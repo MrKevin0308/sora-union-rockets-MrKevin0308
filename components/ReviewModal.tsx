@@ -100,7 +100,6 @@ export default function ReviewModal({ modalIsOpen, closeModal, data }: Props) {
           onChange={(e) => setModalData({...modalData, title: e.target.value})}
         />
         <TextField
-          autoFocus
           margin="dense"
           required
           id="rocketName"
@@ -110,7 +109,6 @@ export default function ReviewModal({ modalIsOpen, closeModal, data }: Props) {
           onChange={(e) => setModalData({...modalData, rocketName: e.target.value})}
         />
         <TextField
-          autoFocus
           margin="dense"
           required
           multiline
